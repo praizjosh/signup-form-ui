@@ -9,11 +9,6 @@ body {
     margin: 30px 0;
 }
 
-::selection {
-    color: #fff;
-    background-color: #1FB188;
-}
-
 #form-wrapper {
 	max-width: 780px;
 	margin-top: 65px;
@@ -101,6 +96,11 @@ h1	{
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+::selection {
+    color: #fff;
+    background-color: #1FB188;
 }
 
 @media only screen and (max-width: 680px) {
